@@ -10,6 +10,13 @@
 		D8523CC12362C80B0092F747 /* KnifeBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = D8523CC02362C80B0092F747 /* KnifeBehavior.m */; };
 		D8523CC42362C89A0092F747 /* SwordBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = D8523CC32362C89A0092F747 /* SwordBehavior.m */; };
 		D8523CC72362C8DA0092F747 /* Queen.m in Sources */ = {isa = PBXBuildFile; fileRef = D8523CC62362C8DA0092F747 /* Queen.m */; };
+		D88D35742371662200903F3C /* StrategyPatternVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D35732371662200903F3C /* StrategyPatternVC.m */; };
+		D88D3578237167B400903F3C /* DecoratorPatternVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D3577237167B400903F3C /* DecoratorPatternVC.m */; };
+		D88D357C23716A3100903F3C /* Espresso.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D357B23716A3100903F3C /* Espresso.m */; };
+		D88D357F23716B6500903F3C /* HouseBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D357E23716B6500903F3C /* HouseBlend.m */; };
+		D88D358423716D0D00903F3C /* Moca.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D358323716D0D00903F3C /* Moca.m */; };
+		D88D358723716FCF00903F3C /* Milk.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D358623716FCF00903F3C /* Milk.m */; };
+		D88D358A2371707A00903F3C /* Soy.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D35892371707A00903F3C /* Soy.m */; };
 		D8E661EF2362977E001C7D77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E661EE2362977E001C7D77 /* AppDelegate.m */; };
 		D8E661F22362977E001C7D77 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E661F12362977E001C7D77 /* SceneDelegate.m */; };
 		D8E661F52362977E001C7D77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E661F42362977E001C7D77 /* ViewController.m */; };
@@ -29,6 +36,22 @@
 		D8523CC32362C89A0092F747 /* SwordBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwordBehavior.m; sourceTree = "<group>"; };
 		D8523CC52362C8DA0092F747 /* Queen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queen.h; sourceTree = "<group>"; };
 		D8523CC62362C8DA0092F747 /* Queen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queen.m; sourceTree = "<group>"; };
+		D88D35722371662200903F3C /* StrategyPatternVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyPatternVC.h; sourceTree = "<group>"; };
+		D88D35732371662200903F3C /* StrategyPatternVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyPatternVC.m; sourceTree = "<group>"; };
+		D88D3576237167B400903F3C /* DecoratorPatternVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoratorPatternVC.h; sourceTree = "<group>"; };
+		D88D3577237167B400903F3C /* DecoratorPatternVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorPatternVC.m; sourceTree = "<group>"; };
+		D88D35792371697000903F3C /* Baverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baverage.h; sourceTree = "<group>"; };
+		D88D357A23716A3100903F3C /* Espresso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Espresso.h; sourceTree = "<group>"; };
+		D88D357B23716A3100903F3C /* Espresso.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Espresso.m; sourceTree = "<group>"; };
+		D88D357D23716B6500903F3C /* HouseBlend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseBlend.h; sourceTree = "<group>"; };
+		D88D357E23716B6500903F3C /* HouseBlend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseBlend.m; sourceTree = "<group>"; };
+		D88D358023716CB900903F3C /* Condiment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Condiment.h; sourceTree = "<group>"; };
+		D88D358223716D0D00903F3C /* Moca.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moca.h; sourceTree = "<group>"; };
+		D88D358323716D0D00903F3C /* Moca.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moca.m; sourceTree = "<group>"; };
+		D88D358523716FCF00903F3C /* Milk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Milk.h; sourceTree = "<group>"; };
+		D88D358623716FCF00903F3C /* Milk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Milk.m; sourceTree = "<group>"; };
+		D88D35882371707A00903F3C /* Soy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soy.h; sourceTree = "<group>"; };
+		D88D35892371707A00903F3C /* Soy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soy.m; sourceTree = "<group>"; };
 		D8E661EA2362977E001C7D77 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E661ED2362977E001C7D77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8E661EE2362977E001C7D77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,13 +84,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D83CBC1B2366D0B900297ACE /* 观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "观察者模式";
+			sourceTree = "<group>";
+		};
 		D8523CC82362D36F0092F747 /* 策略模式 */ = {
 			isa = PBXGroup;
 			children = (
 				D8E6620C23629D89001C7D77 /* Character */,
 				D8E6620E23629F55001C7D77 /* Weapon */,
+				D88D35722371662200903F3C /* StrategyPatternVC.h */,
+				D88D35732371662200903F3C /* StrategyPatternVC.m */,
 			);
 			path = "策略模式";
+			sourceTree = "<group>";
+		};
+		D88D35752371673F00903F3C /* 装饰者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D88D3576237167B400903F3C /* DecoratorPatternVC.h */,
+				D88D3577237167B400903F3C /* DecoratorPatternVC.m */,
+				D88D35792371697000903F3C /* Baverage.h */,
+				D88D358023716CB900903F3C /* Condiment.h */,
+				D88D358B237170DB00903F3C /* 装饰者 */,
+				D88D358123716CDD00903F3C /* 被装饰者 */,
+			);
+			path = "装饰者模式";
+			sourceTree = "<group>";
+		};
+		D88D358123716CDD00903F3C /* 被装饰者 */ = {
+			isa = PBXGroup;
+			children = (
+				D88D357A23716A3100903F3C /* Espresso.h */,
+				D88D357B23716A3100903F3C /* Espresso.m */,
+				D88D357D23716B6500903F3C /* HouseBlend.h */,
+				D88D357E23716B6500903F3C /* HouseBlend.m */,
+			);
+			path = "被装饰者";
+			sourceTree = "<group>";
+		};
+		D88D358B237170DB00903F3C /* 装饰者 */ = {
+			isa = PBXGroup;
+			children = (
+				D88D358223716D0D00903F3C /* Moca.h */,
+				D88D358323716D0D00903F3C /* Moca.m */,
+				D88D358523716FCF00903F3C /* Milk.h */,
+				D88D358623716FCF00903F3C /* Milk.m */,
+				D88D35882371707A00903F3C /* Soy.h */,
+				D88D35892371707A00903F3C /* Soy.m */,
+			);
+			path = "装饰者";
 			sourceTree = "<group>";
 		};
 		D8E661E12362977E001C7D77 = {
@@ -95,6 +164,8 @@
 				D8E661F12362977E001C7D77 /* SceneDelegate.m */,
 				D8E661F32362977E001C7D77 /* ViewController.h */,
 				D8E661F42362977E001C7D77 /* ViewController.m */,
+				D88D35752371673F00903F3C /* 装饰者模式 */,
+				D83CBC1B2366D0B900297ACE /* 观察者模式 */,
 				D8523CC82362D36F0092F747 /* 策略模式 */,
 				D8E661F62362977E001C7D77 /* Main.storyboard */,
 				D8E661F92362978B001C7D77 /* Assets.xcassets */,
@@ -206,11 +277,18 @@
 				D8E661F52362977E001C7D77 /* ViewController.m in Sources */,
 				D8523CC72362C8DA0092F747 /* Queen.m in Sources */,
 				D8E6620823629CE8001C7D77 /* Character.m in Sources */,
+				D88D357C23716A3100903F3C /* Espresso.m in Sources */,
 				D8E6621123629F8C001C7D77 /* AxeBehavior.m in Sources */,
+				D88D35742371662200903F3C /* StrategyPatternVC.m in Sources */,
 				D8E661EF2362977E001C7D77 /* AppDelegate.m in Sources */,
 				D8E662002362978B001C7D77 /* main.m in Sources */,
+				D88D358A2371707A00903F3C /* Soy.m in Sources */,
 				D8E6620B23629CF9001C7D77 /* King.m in Sources */,
+				D88D358423716D0D00903F3C /* Moca.m in Sources */,
+				D88D3578237167B400903F3C /* DecoratorPatternVC.m in Sources */,
 				D8E661F22362977E001C7D77 /* SceneDelegate.m in Sources */,
+				D88D357F23716B6500903F3C /* HouseBlend.m in Sources */,
+				D88D358723716FCF00903F3C /* Milk.m in Sources */,
 				D8523CC12362C80B0092F747 /* KnifeBehavior.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,14 +7,14 @@
 //
 
 #import "ViewController.h"
-#import "King.h"
-#import "SwordBehavior.h"
-#import "KnifeBehavior.h"
-#import "AxeBehavior.h"
+#import "StrategyPatternVC.h"
+#import "DecoratorPatternVC.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
-@property (nonatomic, strong) Character *king;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+@property (nonatomic, strong) NSArray *dataSource;
 
 @end
 
@@ -23,35 +23,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.dataSource = [NSArray arrayWithObjects:@"策略模式", @"装饰者模式", nil];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
 
-    UIButton *button_1 = [UIButton buttonWithType:UIButtonTypeCustom];
-    button_1.frame = CGRectMake(100, 50, 100, 100);
-    [button_1 setTitle:@"更换武器1" forState:UIControlStateNormal];
-    [button_1 addTarget:self action:@selector(changeWean_1) forControlEvents:UIControlEventTouchUpInside];
-    button_1.backgroundColor = [UIColor redColor];
-    [self.view addSubview:button_1];
-    
-    UIButton *button_2 = [UIButton buttonWithType:UIButtonTypeCustom];
-    button_2.frame = CGRectMake(100, 200, 100, 100);
-    [button_2 setTitle:@"更换武器2" forState:UIControlStateNormal];
-    [button_2 addTarget:self action:@selector(changeWean_2) forControlEvents:UIControlEventTouchUpInside];
-    button_2.backgroundColor = [UIColor redColor];
-    [self.view addSubview:button_2];
-    
-    
-    self.king = [[King alloc] init];
-    [self.king setWeaPonVegavior:[SwordBehavior new]];
-    [self.king fight];
 }
 
-- (void)changeWean_1 {
-    [self.king setWeaPonVegavior:[KnifeBehavior new]];
-    [self.king fight];
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.dataSource.count;
 }
 
-- (void)changeWean_2 {
-    [self.king setWeaPonVegavior:[AxeBehavior new]];
-    [self.king fight];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell"];
+
+    cell.textLabel.text = [NSString stringWithFormat:@"%ld.%@", indexPath.row + 1, self.dataSource[indexPath.row]];
+    
+    return  cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row == 0) {
+        [self.navigationController pushViewController:[StrategyPatternVC new] animated:YES];
+    } else if (indexPath.row == 1) {
+        [self.navigationController pushViewController:[DecoratorPatternVC new] animated:YES];
+    }
 }
 
 
