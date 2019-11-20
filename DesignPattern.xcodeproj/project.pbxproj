@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80F57912383C9C30068AA8F /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = D80F57902383C9C30068AA8F /* Shape.m */; };
+		D80F57942383C9FB0068AA8F /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = D80F57932383C9FB0068AA8F /* Circle.m */; };
+		D80F57972383CA210068AA8F /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = D80F57962383CA210068AA8F /* Rectangle.m */; };
+		D80F579A2383CA450068AA8F /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = D80F57992383CA450068AA8F /* Square.m */; };
+		D80F579D2383CA880068AA8F /* ShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D80F579C2383CA880068AA8F /* ShapeFactory.m */; };
+		D82FC2DA2384D6D500C51366 /* FactoryPatternVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2D92384D6D500C51366 /* FactoryPatternVC.m */; };
+		D82FC2DE2384D98C00C51366 /* ImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2DD2384D98C00C51366 /* ImageLoader.m */; };
+		D82FC2E12384D9B400C51366 /* PNGImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2E02384D9B400C51366 /* PNGImageLoader.m */; };
+		D82FC2E42384D9D800C51366 /* GIFImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2E32384D9D800C51366 /* GIFImageLoader.m */; };
+		D82FC2E72384D9E600C51366 /* JPGImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2E62384D9E600C51366 /* JPGImageLoader.m */; };
+		D82FC2EA2384DC0300C51366 /* ImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2E92384DC0300C51366 /* ImageFactory.m */; };
+		D82FC2ED2384DC3500C51366 /* PNGImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2EC2384DC3500C51366 /* PNGImageFactory.m */; };
+		D82FC2F02384DC4200C51366 /* GIFImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2EF2384DC4200C51366 /* GIFImageFactory.m */; };
+		D82FC2F32384DC4E00C51366 /* JPGImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2F22384DC4E00C51366 /* JPGImageFactory.m */; };
+		D82FC2F7238517E200C51366 /* OperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2F6238517E200C51366 /* OperationController.m */; };
+		D82FC2FA2385180D00C51366 /* WindowsOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2F92385180D00C51366 /* WindowsOperationController.m */; };
+		D82FC2FD2385181800C51366 /* iOSOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2FC2385181800C51366 /* iOSOperationController.m */; };
+		D82FC3002385182300C51366 /* AndroidOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC2FF2385182300C51366 /* AndroidOperationController.m */; };
+		D82FC3032385189900C51366 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC3022385189900C51366 /* InterfaceController.m */; };
+		D82FC306238518AA00C51366 /* WindowsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC305238518AA00C51366 /* WindowsInterfaceController.m */; };
+		D82FC309238518B300C51366 /* iOSInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC308238518B300C51366 /* iOSInterfaceController.m */; };
+		D82FC30C238518BB00C51366 /* AndroidInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC30B238518BB00C51366 /* AndroidInterfaceController.m */; };
+		D82FC30F2385194800C51366 /* SystemFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC30E2385194800C51366 /* SystemFactory.m */; };
+		D82FC3122385196500C51366 /* WindowsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC3112385196500C51366 /* WindowsFactory.m */; };
+		D82FC3152385197300C51366 /* iOSFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC3142385197300C51366 /* iOSFactory.m */; };
+		D82FC3182385197C00C51366 /* AndroidFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FC3172385197C00C51366 /* AndroidFactory.m */; };
 		D8523CC12362C80B0092F747 /* KnifeBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = D8523CC02362C80B0092F747 /* KnifeBehavior.m */; };
 		D8523CC42362C89A0092F747 /* SwordBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = D8523CC32362C89A0092F747 /* SwordBehavior.m */; };
 		D8523CC72362C8DA0092F747 /* Queen.m in Sources */ = {isa = PBXBuildFile; fileRef = D8523CC62362C8DA0092F747 /* Queen.m */; };
@@ -30,6 +56,58 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D80F578F2383C9C30068AA8F /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		D80F57902383C9C30068AA8F /* Shape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		D80F57922383C9FB0068AA8F /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		D80F57932383C9FB0068AA8F /* Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		D80F57952383CA210068AA8F /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		D80F57962383CA210068AA8F /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		D80F57982383CA450068AA8F /* Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		D80F57992383CA450068AA8F /* Square.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		D80F579B2383CA880068AA8F /* ShapeFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeFactory.h; sourceTree = "<group>"; };
+		D80F579C2383CA880068AA8F /* ShapeFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeFactory.m; sourceTree = "<group>"; };
+		D82FC2D82384D6D500C51366 /* FactoryPatternVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryPatternVC.h; sourceTree = "<group>"; };
+		D82FC2D92384D6D500C51366 /* FactoryPatternVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternVC.m; sourceTree = "<group>"; };
+		D82FC2DC2384D98C00C51366 /* ImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageLoader.h; sourceTree = "<group>"; };
+		D82FC2DD2384D98C00C51366 /* ImageLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageLoader.m; sourceTree = "<group>"; };
+		D82FC2DF2384D9B400C51366 /* PNGImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNGImageLoader.h; sourceTree = "<group>"; };
+		D82FC2E02384D9B400C51366 /* PNGImageLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNGImageLoader.m; sourceTree = "<group>"; };
+		D82FC2E22384D9D800C51366 /* GIFImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIFImageLoader.h; sourceTree = "<group>"; };
+		D82FC2E32384D9D800C51366 /* GIFImageLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFImageLoader.m; sourceTree = "<group>"; };
+		D82FC2E52384D9E600C51366 /* JPGImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPGImageLoader.h; sourceTree = "<group>"; };
+		D82FC2E62384D9E600C51366 /* JPGImageLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPGImageLoader.m; sourceTree = "<group>"; };
+		D82FC2E82384DC0300C51366 /* ImageFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageFactory.h; sourceTree = "<group>"; };
+		D82FC2E92384DC0300C51366 /* ImageFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFactory.m; sourceTree = "<group>"; };
+		D82FC2EB2384DC3500C51366 /* PNGImageFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNGImageFactory.h; sourceTree = "<group>"; };
+		D82FC2EC2384DC3500C51366 /* PNGImageFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNGImageFactory.m; sourceTree = "<group>"; };
+		D82FC2EE2384DC4200C51366 /* GIFImageFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIFImageFactory.h; sourceTree = "<group>"; };
+		D82FC2EF2384DC4200C51366 /* GIFImageFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFImageFactory.m; sourceTree = "<group>"; };
+		D82FC2F12384DC4E00C51366 /* JPGImageFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPGImageFactory.h; sourceTree = "<group>"; };
+		D82FC2F22384DC4E00C51366 /* JPGImageFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPGImageFactory.m; sourceTree = "<group>"; };
+		D82FC2F5238517E200C51366 /* OperationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationController.h; sourceTree = "<group>"; };
+		D82FC2F6238517E200C51366 /* OperationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationController.m; sourceTree = "<group>"; };
+		D82FC2F82385180D00C51366 /* WindowsOperationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowsOperationController.h; sourceTree = "<group>"; };
+		D82FC2F92385180D00C51366 /* WindowsOperationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowsOperationController.m; sourceTree = "<group>"; };
+		D82FC2FB2385181800C51366 /* iOSOperationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSOperationController.h; sourceTree = "<group>"; };
+		D82FC2FC2385181800C51366 /* iOSOperationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSOperationController.m; sourceTree = "<group>"; };
+		D82FC2FE2385182300C51366 /* AndroidOperationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidOperationController.h; sourceTree = "<group>"; };
+		D82FC2FF2385182300C51366 /* AndroidOperationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidOperationController.m; sourceTree = "<group>"; };
+		D82FC3012385189900C51366 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		D82FC3022385189900C51366 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		D82FC304238518AA00C51366 /* WindowsInterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowsInterfaceController.h; sourceTree = "<group>"; };
+		D82FC305238518AA00C51366 /* WindowsInterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowsInterfaceController.m; sourceTree = "<group>"; };
+		D82FC307238518B300C51366 /* iOSInterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSInterfaceController.h; sourceTree = "<group>"; };
+		D82FC308238518B300C51366 /* iOSInterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSInterfaceController.m; sourceTree = "<group>"; };
+		D82FC30A238518BB00C51366 /* AndroidInterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidInterfaceController.h; sourceTree = "<group>"; };
+		D82FC30B238518BB00C51366 /* AndroidInterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidInterfaceController.m; sourceTree = "<group>"; };
+		D82FC30D2385194800C51366 /* SystemFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemFactory.h; sourceTree = "<group>"; };
+		D82FC30E2385194800C51366 /* SystemFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemFactory.m; sourceTree = "<group>"; };
+		D82FC3102385196500C51366 /* WindowsFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowsFactory.h; sourceTree = "<group>"; };
+		D82FC3112385196500C51366 /* WindowsFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowsFactory.m; sourceTree = "<group>"; };
+		D82FC3132385197300C51366 /* iOSFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSFactory.h; sourceTree = "<group>"; };
+		D82FC3142385197300C51366 /* iOSFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSFactory.m; sourceTree = "<group>"; };
+		D82FC3162385197C00C51366 /* AndroidFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidFactory.h; sourceTree = "<group>"; };
+		D82FC3172385197C00C51366 /* AndroidFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidFactory.m; sourceTree = "<group>"; };
 		D8523CBF2362C80B0092F747 /* KnifeBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnifeBehavior.h; sourceTree = "<group>"; };
 		D8523CC02362C80B0092F747 /* KnifeBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnifeBehavior.m; sourceTree = "<group>"; };
 		D8523CC22362C89A0092F747 /* SwordBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwordBehavior.h; sourceTree = "<group>"; };
@@ -84,6 +162,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D80F578E2382A4F30068AA8F /* 工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D82FC2F42385175600C51366 /* 抽象工厂模式 */,
+				D82FC2DB2384D95C00C51366 /* 工厂模式 */,
+				D80F579E2383CB730068AA8F /* 简单工厂模式 */,
+				D82FC2D82384D6D500C51366 /* FactoryPatternVC.h */,
+				D82FC2D92384D6D500C51366 /* FactoryPatternVC.m */,
+			);
+			path = "工厂模式";
+			sourceTree = "<group>";
+		};
+		D80F579E2383CB730068AA8F /* 简单工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D80F578F2383C9C30068AA8F /* Shape.h */,
+				D80F57902383C9C30068AA8F /* Shape.m */,
+				D80F57922383C9FB0068AA8F /* Circle.h */,
+				D80F57932383C9FB0068AA8F /* Circle.m */,
+				D80F57952383CA210068AA8F /* Rectangle.h */,
+				D80F57962383CA210068AA8F /* Rectangle.m */,
+				D80F57982383CA450068AA8F /* Square.h */,
+				D80F57992383CA450068AA8F /* Square.m */,
+				D80F579B2383CA880068AA8F /* ShapeFactory.h */,
+				D80F579C2383CA880068AA8F /* ShapeFactory.m */,
+			);
+			path = "简单工厂模式";
+			sourceTree = "<group>";
+		};
+		D82FC2DB2384D95C00C51366 /* 工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D82FC2DC2384D98C00C51366 /* ImageLoader.h */,
+				D82FC2DD2384D98C00C51366 /* ImageLoader.m */,
+				D82FC2DF2384D9B400C51366 /* PNGImageLoader.h */,
+				D82FC2E02384D9B400C51366 /* PNGImageLoader.m */,
+				D82FC2E22384D9D800C51366 /* GIFImageLoader.h */,
+				D82FC2E32384D9D800C51366 /* GIFImageLoader.m */,
+				D82FC2E52384D9E600C51366 /* JPGImageLoader.h */,
+				D82FC2E62384D9E600C51366 /* JPGImageLoader.m */,
+				D82FC2E82384DC0300C51366 /* ImageFactory.h */,
+				D82FC2E92384DC0300C51366 /* ImageFactory.m */,
+				D82FC2EB2384DC3500C51366 /* PNGImageFactory.h */,
+				D82FC2EC2384DC3500C51366 /* PNGImageFactory.m */,
+				D82FC2EE2384DC4200C51366 /* GIFImageFactory.h */,
+				D82FC2EF2384DC4200C51366 /* GIFImageFactory.m */,
+				D82FC2F12384DC4E00C51366 /* JPGImageFactory.h */,
+				D82FC2F22384DC4E00C51366 /* JPGImageFactory.m */,
+			);
+			path = "工厂模式";
+			sourceTree = "<group>";
+		};
+		D82FC2F42385175600C51366 /* 抽象工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D82FC2F5238517E200C51366 /* OperationController.h */,
+				D82FC2F6238517E200C51366 /* OperationController.m */,
+				D82FC2F82385180D00C51366 /* WindowsOperationController.h */,
+				D82FC2F92385180D00C51366 /* WindowsOperationController.m */,
+				D82FC2FB2385181800C51366 /* iOSOperationController.h */,
+				D82FC2FC2385181800C51366 /* iOSOperationController.m */,
+				D82FC2FE2385182300C51366 /* AndroidOperationController.h */,
+				D82FC2FF2385182300C51366 /* AndroidOperationController.m */,
+				D82FC3012385189900C51366 /* InterfaceController.h */,
+				D82FC3022385189900C51366 /* InterfaceController.m */,
+				D82FC304238518AA00C51366 /* WindowsInterfaceController.h */,
+				D82FC305238518AA00C51366 /* WindowsInterfaceController.m */,
+				D82FC307238518B300C51366 /* iOSInterfaceController.h */,
+				D82FC308238518B300C51366 /* iOSInterfaceController.m */,
+				D82FC30A238518BB00C51366 /* AndroidInterfaceController.h */,
+				D82FC30B238518BB00C51366 /* AndroidInterfaceController.m */,
+				D82FC30D2385194800C51366 /* SystemFactory.h */,
+				D82FC30E2385194800C51366 /* SystemFactory.m */,
+				D82FC3102385196500C51366 /* WindowsFactory.h */,
+				D82FC3112385196500C51366 /* WindowsFactory.m */,
+				D82FC3132385197300C51366 /* iOSFactory.h */,
+				D82FC3142385197300C51366 /* iOSFactory.m */,
+				D82FC3162385197C00C51366 /* AndroidFactory.h */,
+				D82FC3172385197C00C51366 /* AndroidFactory.m */,
+			);
+			path = "抽象工厂模式";
+			sourceTree = "<group>";
+		};
 		D83CBC1B2366D0B900297ACE /* 观察者模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +325,7 @@
 				D8E661F12362977E001C7D77 /* SceneDelegate.m */,
 				D8E661F32362977E001C7D77 /* ViewController.h */,
 				D8E661F42362977E001C7D77 /* ViewController.m */,
+				D80F578E2382A4F30068AA8F /* 工厂模式 */,
 				D88D35752371673F00903F3C /* 装饰者模式 */,
 				D83CBC1B2366D0B900297ACE /* 观察者模式 */,
 				D8523CC82362D36F0092F747 /* 策略模式 */,
@@ -273,23 +435,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82FC2EA2384DC0300C51366 /* ImageFactory.m in Sources */,
 				D8523CC42362C89A0092F747 /* SwordBehavior.m in Sources */,
 				D8E661F52362977E001C7D77 /* ViewController.m in Sources */,
 				D8523CC72362C8DA0092F747 /* Queen.m in Sources */,
+				D80F579A2383CA450068AA8F /* Square.m in Sources */,
+				D82FC2F7238517E200C51366 /* OperationController.m in Sources */,
+				D82FC2F02384DC4200C51366 /* GIFImageFactory.m in Sources */,
 				D8E6620823629CE8001C7D77 /* Character.m in Sources */,
 				D88D357C23716A3100903F3C /* Espresso.m in Sources */,
+				D82FC306238518AA00C51366 /* WindowsInterfaceController.m in Sources */,
 				D8E6621123629F8C001C7D77 /* AxeBehavior.m in Sources */,
+				D82FC2E12384D9B400C51366 /* PNGImageLoader.m in Sources */,
 				D88D35742371662200903F3C /* StrategyPatternVC.m in Sources */,
 				D8E661EF2362977E001C7D77 /* AppDelegate.m in Sources */,
+				D82FC3152385197300C51366 /* iOSFactory.m in Sources */,
+				D82FC3032385189900C51366 /* InterfaceController.m in Sources */,
 				D8E662002362978B001C7D77 /* main.m in Sources */,
+				D82FC2DE2384D98C00C51366 /* ImageLoader.m in Sources */,
+				D82FC3182385197C00C51366 /* AndroidFactory.m in Sources */,
+				D80F57942383C9FB0068AA8F /* Circle.m in Sources */,
 				D88D358A2371707A00903F3C /* Soy.m in Sources */,
+				D82FC2FA2385180D00C51366 /* WindowsOperationController.m in Sources */,
 				D8E6620B23629CF9001C7D77 /* King.m in Sources */,
+				D82FC2ED2384DC3500C51366 /* PNGImageFactory.m in Sources */,
 				D88D358423716D0D00903F3C /* Moca.m in Sources */,
+				D80F579D2383CA880068AA8F /* ShapeFactory.m in Sources */,
 				D88D3578237167B400903F3C /* DecoratorPatternVC.m in Sources */,
 				D8E661F22362977E001C7D77 /* SceneDelegate.m in Sources */,
+				D82FC30C238518BB00C51366 /* AndroidInterfaceController.m in Sources */,
 				D88D357F23716B6500903F3C /* HouseBlend.m in Sources */,
+				D80F57912383C9C30068AA8F /* Shape.m in Sources */,
+				D82FC3002385182300C51366 /* AndroidOperationController.m in Sources */,
+				D82FC2E72384D9E600C51366 /* JPGImageLoader.m in Sources */,
 				D88D358723716FCF00903F3C /* Milk.m in Sources */,
+				D82FC2F32384DC4E00C51366 /* JPGImageFactory.m in Sources */,
+				D82FC2FD2385181800C51366 /* iOSOperationController.m in Sources */,
 				D8523CC12362C80B0092F747 /* KnifeBehavior.m in Sources */,
+				D82FC3122385196500C51366 /* WindowsFactory.m in Sources */,
+				D80F57972383CA210068AA8F /* Rectangle.m in Sources */,
+				D82FC309238518B300C51366 /* iOSInterfaceController.m in Sources */,
+				D82FC2DA2384D6D500C51366 /* FactoryPatternVC.m in Sources */,
+				D82FC2E42384D9D800C51366 /* GIFImageLoader.m in Sources */,
+				D82FC30F2385194800C51366 /* SystemFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

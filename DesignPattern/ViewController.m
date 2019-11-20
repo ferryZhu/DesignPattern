@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "StrategyPatternVC.h"
 #import "DecoratorPatternVC.h"
+#import "FactoryPatternVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -24,7 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.dataSource = [NSArray arrayWithObjects:@"策略模式", @"装饰者模式", nil];
+    self.dataSource = [NSArray arrayWithObjects:@"策略模式", @"装饰者模式", @"工厂模式",nil];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
 
 }
@@ -49,6 +50,8 @@
         [self.navigationController pushViewController:[StrategyPatternVC new] animated:YES];
     } else if (indexPath.row == 1) {
         [self.navigationController pushViewController:[DecoratorPatternVC new] animated:YES];
+    } else if (indexPath.row == 2) {
+        [self.navigationController pushViewController:[FactoryPatternVC new] animated:YES];
     }
 }
 
