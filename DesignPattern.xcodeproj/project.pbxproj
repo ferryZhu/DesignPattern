@@ -53,6 +53,8 @@
 		D8E6620823629CE8001C7D77 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E6620723629CE8001C7D77 /* Character.m */; };
 		D8E6620B23629CF9001C7D77 /* King.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E6620A23629CF9001C7D77 /* King.m */; };
 		D8E6621123629F8C001C7D77 /* AxeBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E6621023629F8C001C7D77 /* AxeBehavior.m */; };
+		D8F280C2238E76F0000E194A /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F280C1238E76F0000E194A /* Singleton.m */; };
+		D8F280C5238E7C14000E194A /* Singleton_Macro.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F280C4238E7C14000E194A /* Singleton_Macro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +151,11 @@
 		D8E6620D23629F33001C7D77 /* WeaponBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeaponBehavior.h; sourceTree = "<group>"; };
 		D8E6620F23629F8C001C7D77 /* AxeBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AxeBehavior.h; sourceTree = "<group>"; };
 		D8E6621023629F8C001C7D77 /* AxeBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AxeBehavior.m; sourceTree = "<group>"; };
+		D8F280C0238E76F0000E194A /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		D8F280C1238E76F0000E194A /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		D8F280C3238E7C14000E194A /* Singleton_Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton_Macro.h; sourceTree = "<group>"; };
+		D8F280C4238E7C14000E194A /* Singleton_Macro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton_Macro.m; sourceTree = "<group>"; };
+		D8F280C9238E7C3B000E194A /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +332,7 @@
 				D8E661F12362977E001C7D77 /* SceneDelegate.m */,
 				D8E661F32362977E001C7D77 /* ViewController.h */,
 				D8E661F42362977E001C7D77 /* ViewController.m */,
+				D8F280BF238E76BB000E194A /* 单例模式 */,
 				D80F578E2382A4F30068AA8F /* 工厂模式 */,
 				D88D35752371673F00903F3C /* 装饰者模式 */,
 				D83CBC1B2366D0B900297ACE /* 观察者模式 */,
@@ -363,6 +371,18 @@
 				D8523CC32362C89A0092F747 /* SwordBehavior.m */,
 			);
 			path = Weapon;
+			sourceTree = "<group>";
+		};
+		D8F280BF238E76BB000E194A /* 单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D8F280C0238E76F0000E194A /* Singleton.h */,
+				D8F280C1238E76F0000E194A /* Singleton.m */,
+				D8F280C3238E7C14000E194A /* Singleton_Macro.h */,
+				D8F280C4238E7C14000E194A /* Singleton_Macro.m */,
+				D8F280C9238E7C3B000E194A /* Macro.h */,
+			);
+			path = "单例模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -471,11 +491,13 @@
 				D88D358723716FCF00903F3C /* Milk.m in Sources */,
 				D82FC2F32384DC4E00C51366 /* JPGImageFactory.m in Sources */,
 				D82FC2FD2385181800C51366 /* iOSOperationController.m in Sources */,
+				D8F280C5238E7C14000E194A /* Singleton_Macro.m in Sources */,
 				D8523CC12362C80B0092F747 /* KnifeBehavior.m in Sources */,
 				D82FC3122385196500C51366 /* WindowsFactory.m in Sources */,
 				D80F57972383CA210068AA8F /* Rectangle.m in Sources */,
 				D82FC309238518B300C51366 /* iOSInterfaceController.m in Sources */,
 				D82FC2DA2384D6D500C51366 /* FactoryPatternVC.m in Sources */,
+				D8F280C2238E76F0000E194A /* Singleton.m in Sources */,
 				D82FC2E42384D9D800C51366 /* GIFImageLoader.m in Sources */,
 				D82FC30F2385194800C51366 /* SystemFactory.m in Sources */,
 			);

@@ -10,6 +10,8 @@
 #import "StrategyPatternVC.h"
 #import "DecoratorPatternVC.h"
 #import "FactoryPatternVC.h"
+#import "Singleton.h"
+#import "Singleton_Macro.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
