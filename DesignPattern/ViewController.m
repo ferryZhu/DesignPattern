@@ -12,6 +12,7 @@
 #import "FactoryPatternVC.h"
 #import "Singleton.h"
 #import "Singleton_Macro.h"
+#import "CommendViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -27,8 +28,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.dataSource = [NSArray arrayWithObjects:@"策略模式", @"装饰者模式", @"工厂模式",nil];
+    self.dataSource = [NSArray arrayWithObjects:@"策略模式", @"装饰者模式", @"工厂模式", @"命令模式", nil];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
+    
+    NSLog(@"");
 
 }
 
@@ -54,6 +57,10 @@
         [self.navigationController pushViewController:[DecoratorPatternVC new] animated:YES];
     } else if (indexPath.row == 2) {
         [self.navigationController pushViewController:[FactoryPatternVC new] animated:YES];
+    } else if (indexPath.row == 3) {
+
+        [self.navigationController pushViewController:[CommendViewController new] animated:YES];
+
     }
 }
 

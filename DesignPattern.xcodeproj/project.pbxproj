@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80B7D7623AB5C83000930B2 /* LightOnCommend.m in Sources */ = {isa = PBXBuildFile; fileRef = D80B7D7523AB5C83000930B2 /* LightOnCommend.m */; };
+		D80B7D7923AB5C90000930B2 /* DoorOnCommend.m in Sources */ = {isa = PBXBuildFile; fileRef = D80B7D7823AB5C90000930B2 /* DoorOnCommend.m */; };
+		D80B7D7C23AB5C9A000930B2 /* FanOnCommend.m in Sources */ = {isa = PBXBuildFile; fileRef = D80B7D7B23AB5C9A000930B2 /* FanOnCommend.m */; };
+		D80B7D7F23AB5CB8000930B2 /* HeaterOnCommend.m in Sources */ = {isa = PBXBuildFile; fileRef = D80B7D7E23AB5CB8000930B2 /* HeaterOnCommend.m */; };
+		D80B7D8223AB5CCB000930B2 /* TVOnCommend.m in Sources */ = {isa = PBXBuildFile; fileRef = D80B7D8123AB5CCB000930B2 /* TVOnCommend.m */; };
 		D80F57912383C9C30068AA8F /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = D80F57902383C9C30068AA8F /* Shape.m */; };
 		D80F57942383C9FB0068AA8F /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = D80F57932383C9FB0068AA8F /* Circle.m */; };
 		D80F57972383CA210068AA8F /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = D80F57962383CA210068AA8F /* Rectangle.m */; };
@@ -43,6 +48,20 @@
 		D88D358423716D0D00903F3C /* Moca.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D358323716D0D00903F3C /* Moca.m */; };
 		D88D358723716FCF00903F3C /* Milk.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D358623716FCF00903F3C /* Milk.m */; };
 		D88D358A2371707A00903F3C /* Soy.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D35892371707A00903F3C /* Soy.m */; };
+		D8A77AE723AB54E300CBA1DF /* CommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A77AE523AB54E300CBA1DF /* CommendViewController.m */; };
+		D8A77AE823AB54E300CBA1DF /* CommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A77AE623AB54E300CBA1DF /* CommendViewController.xib */; };
+		D8AE543A23B9974500A105B7 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE543923B9974500A105B7 /* Light.m */; };
+		D8AE543F23B99E4B00A105B7 /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE543E23B99E4B00A105B7 /* RemoteControl.m */; };
+		D8AE544223B99F9D00A105B7 /* NoCommend.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE544123B99F9D00A105B7 /* NoCommend.m */; };
+		D8AE544523B9A30200A105B7 /* LightOffCommend.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE544423B9A30200A105B7 /* LightOffCommend.m */; };
+		D8AE544823B9A46400A105B7 /* Door.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE544723B9A46400A105B7 /* Door.m */; };
+		D8AE544B23B9C7C100A105B7 /* DoorOffCommend.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE544A23B9C7C100A105B7 /* DoorOffCommend.m */; };
+		D8AE544E23B9C81500A105B7 /* Fan.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE544D23B9C81500A105B7 /* Fan.m */; };
+		D8AE545123B9C89A00A105B7 /* FanOffCommend.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE545023B9C89A00A105B7 /* FanOffCommend.m */; };
+		D8AE545423B9C8B700A105B7 /* HeaterOffCommend.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE545323B9C8B700A105B7 /* HeaterOffCommend.m */; };
+		D8AE545723B9C8C400A105B7 /* TVOffCommend.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE545623B9C8C400A105B7 /* TVOffCommend.m */; };
+		D8AE545A23B9C8D100A105B7 /* Heater.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE545923B9C8D100A105B7 /* Heater.m */; };
+		D8AE545D23B9C8D900A105B7 /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE545C23B9C8D900A105B7 /* TV.m */; };
 		D8E661EF2362977E001C7D77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E661EE2362977E001C7D77 /* AppDelegate.m */; };
 		D8E661F22362977E001C7D77 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E661F12362977E001C7D77 /* SceneDelegate.m */; };
 		D8E661F52362977E001C7D77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E661F42362977E001C7D77 /* ViewController.m */; };
@@ -58,6 +77,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D80B7D7323AB5C34000930B2 /* Commend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commend.h; sourceTree = "<group>"; };
+		D80B7D7423AB5C83000930B2 /* LightOnCommend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOnCommend.h; sourceTree = "<group>"; };
+		D80B7D7523AB5C83000930B2 /* LightOnCommend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOnCommend.m; sourceTree = "<group>"; };
+		D80B7D7723AB5C90000930B2 /* DoorOnCommend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoorOnCommend.h; sourceTree = "<group>"; };
+		D80B7D7823AB5C90000930B2 /* DoorOnCommend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoorOnCommend.m; sourceTree = "<group>"; };
+		D80B7D7A23AB5C9A000930B2 /* FanOnCommend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanOnCommend.h; sourceTree = "<group>"; };
+		D80B7D7B23AB5C9A000930B2 /* FanOnCommend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanOnCommend.m; sourceTree = "<group>"; };
+		D80B7D7D23AB5CB8000930B2 /* HeaterOnCommend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaterOnCommend.h; sourceTree = "<group>"; };
+		D80B7D7E23AB5CB8000930B2 /* HeaterOnCommend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaterOnCommend.m; sourceTree = "<group>"; };
+		D80B7D8023AB5CCB000930B2 /* TVOnCommend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVOnCommend.h; sourceTree = "<group>"; };
+		D80B7D8123AB5CCB000930B2 /* TVOnCommend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVOnCommend.m; sourceTree = "<group>"; };
 		D80F578F2383C9C30068AA8F /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
 		D80F57902383C9C30068AA8F /* Shape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
 		D80F57922383C9FB0068AA8F /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
@@ -132,6 +162,33 @@
 		D88D358623716FCF00903F3C /* Milk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Milk.m; sourceTree = "<group>"; };
 		D88D35882371707A00903F3C /* Soy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soy.h; sourceTree = "<group>"; };
 		D88D35892371707A00903F3C /* Soy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soy.m; sourceTree = "<group>"; };
+		D8A77AE423AB54E300CBA1DF /* CommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommendViewController.h; sourceTree = "<group>"; };
+		D8A77AE523AB54E300CBA1DF /* CommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommendViewController.m; sourceTree = "<group>"; };
+		D8A77AE623AB54E300CBA1DF /* CommendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommendViewController.xib; sourceTree = "<group>"; };
+		D8AE543823B9974500A105B7 /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		D8AE543923B9974500A105B7 /* Light.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		D8AE543D23B99E4B00A105B7 /* RemoteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		D8AE543E23B99E4B00A105B7 /* RemoteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		D8AE544023B99F9D00A105B7 /* NoCommend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoCommend.h; sourceTree = "<group>"; };
+		D8AE544123B99F9D00A105B7 /* NoCommend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoCommend.m; sourceTree = "<group>"; };
+		D8AE544323B9A30200A105B7 /* LightOffCommend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOffCommend.h; sourceTree = "<group>"; };
+		D8AE544423B9A30200A105B7 /* LightOffCommend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOffCommend.m; sourceTree = "<group>"; };
+		D8AE544623B9A46400A105B7 /* Door.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Door.h; sourceTree = "<group>"; };
+		D8AE544723B9A46400A105B7 /* Door.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Door.m; sourceTree = "<group>"; };
+		D8AE544923B9C7C100A105B7 /* DoorOffCommend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoorOffCommend.h; sourceTree = "<group>"; };
+		D8AE544A23B9C7C100A105B7 /* DoorOffCommend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoorOffCommend.m; sourceTree = "<group>"; };
+		D8AE544C23B9C81500A105B7 /* Fan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fan.h; sourceTree = "<group>"; };
+		D8AE544D23B9C81500A105B7 /* Fan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fan.m; sourceTree = "<group>"; };
+		D8AE544F23B9C89A00A105B7 /* FanOffCommend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FanOffCommend.h; sourceTree = "<group>"; };
+		D8AE545023B9C89A00A105B7 /* FanOffCommend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanOffCommend.m; sourceTree = "<group>"; };
+		D8AE545223B9C8B700A105B7 /* HeaterOffCommend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaterOffCommend.h; sourceTree = "<group>"; };
+		D8AE545323B9C8B700A105B7 /* HeaterOffCommend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaterOffCommend.m; sourceTree = "<group>"; };
+		D8AE545523B9C8C400A105B7 /* TVOffCommend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVOffCommend.h; sourceTree = "<group>"; };
+		D8AE545623B9C8C400A105B7 /* TVOffCommend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVOffCommend.m; sourceTree = "<group>"; };
+		D8AE545823B9C8D100A105B7 /* Heater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heater.h; sourceTree = "<group>"; };
+		D8AE545923B9C8D100A105B7 /* Heater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heater.m; sourceTree = "<group>"; };
+		D8AE545B23B9C8D900A105B7 /* TV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TV.h; sourceTree = "<group>"; };
+		D8AE545C23B9C8D900A105B7 /* TV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TV.m; sourceTree = "<group>"; };
 		D8E661EA2362977E001C7D77 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E661ED2362977E001C7D77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8E661EE2362977E001C7D77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -307,6 +364,67 @@
 			path = "装饰者";
 			sourceTree = "<group>";
 		};
+		D8A77AE323AB549E00CBA1DF /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D8A77AE423AB54E300CBA1DF /* CommendViewController.h */,
+				D8A77AE523AB54E300CBA1DF /* CommendViewController.m */,
+				D8A77AE623AB54E300CBA1DF /* CommendViewController.xib */,
+				D80B7D7323AB5C34000930B2 /* Commend.h */,
+				D8AE543D23B99E4B00A105B7 /* RemoteControl.h */,
+				D8AE543E23B99E4B00A105B7 /* RemoteControl.m */,
+				D8AE543C23B99A6600A105B7 /* ConcreteCommend */,
+				D8AE543B23B99A3F00A105B7 /* Receiver */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		D8AE543B23B99A3F00A105B7 /* Receiver */ = {
+			isa = PBXGroup;
+			children = (
+				D8AE543823B9974500A105B7 /* Light.h */,
+				D8AE543923B9974500A105B7 /* Light.m */,
+				D8AE544623B9A46400A105B7 /* Door.h */,
+				D8AE544723B9A46400A105B7 /* Door.m */,
+				D8AE544C23B9C81500A105B7 /* Fan.h */,
+				D8AE544D23B9C81500A105B7 /* Fan.m */,
+				D8AE545823B9C8D100A105B7 /* Heater.h */,
+				D8AE545923B9C8D100A105B7 /* Heater.m */,
+				D8AE545B23B9C8D900A105B7 /* TV.h */,
+				D8AE545C23B9C8D900A105B7 /* TV.m */,
+			);
+			path = Receiver;
+			sourceTree = "<group>";
+		};
+		D8AE543C23B99A6600A105B7 /* ConcreteCommend */ = {
+			isa = PBXGroup;
+			children = (
+				D80B7D7423AB5C83000930B2 /* LightOnCommend.h */,
+				D80B7D7523AB5C83000930B2 /* LightOnCommend.m */,
+				D8AE544323B9A30200A105B7 /* LightOffCommend.h */,
+				D8AE544423B9A30200A105B7 /* LightOffCommend.m */,
+				D80B7D7723AB5C90000930B2 /* DoorOnCommend.h */,
+				D80B7D7823AB5C90000930B2 /* DoorOnCommend.m */,
+				D8AE544923B9C7C100A105B7 /* DoorOffCommend.h */,
+				D8AE544A23B9C7C100A105B7 /* DoorOffCommend.m */,
+				D80B7D7A23AB5C9A000930B2 /* FanOnCommend.h */,
+				D80B7D7B23AB5C9A000930B2 /* FanOnCommend.m */,
+				D8AE544F23B9C89A00A105B7 /* FanOffCommend.h */,
+				D8AE545023B9C89A00A105B7 /* FanOffCommend.m */,
+				D80B7D7D23AB5CB8000930B2 /* HeaterOnCommend.h */,
+				D80B7D7E23AB5CB8000930B2 /* HeaterOnCommend.m */,
+				D8AE545223B9C8B700A105B7 /* HeaterOffCommend.h */,
+				D8AE545323B9C8B700A105B7 /* HeaterOffCommend.m */,
+				D80B7D8023AB5CCB000930B2 /* TVOnCommend.h */,
+				D80B7D8123AB5CCB000930B2 /* TVOnCommend.m */,
+				D8AE545523B9C8C400A105B7 /* TVOffCommend.h */,
+				D8AE545623B9C8C400A105B7 /* TVOffCommend.m */,
+				D8AE544023B99F9D00A105B7 /* NoCommend.h */,
+				D8AE544123B99F9D00A105B7 /* NoCommend.m */,
+			);
+			path = ConcreteCommend;
+			sourceTree = "<group>";
+		};
 		D8E661E12362977E001C7D77 = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +450,7 @@
 				D8E661F12362977E001C7D77 /* SceneDelegate.m */,
 				D8E661F32362977E001C7D77 /* ViewController.h */,
 				D8E661F42362977E001C7D77 /* ViewController.m */,
+				D8A77AE323AB549E00CBA1DF /* 命令模式 */,
 				D8F280BF238E76BB000E194A /* 单例模式 */,
 				D80F578E2382A4F30068AA8F /* 工厂模式 */,
 				D88D35752371673F00903F3C /* 装饰者模式 */,
@@ -442,6 +561,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A77AE823AB54E300CBA1DF /* CommendViewController.xib in Resources */,
 				D8E661FD2362978B001C7D77 /* LaunchScreen.storyboard in Resources */,
 				D8E661FA2362978B001C7D77 /* Assets.xcassets in Resources */,
 				D8E661F82362977E001C7D77 /* Main.storyboard in Resources */,
@@ -455,26 +575,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AE544B23B9C7C100A105B7 /* DoorOffCommend.m in Sources */,
 				D82FC2EA2384DC0300C51366 /* ImageFactory.m in Sources */,
+				D80B7D7C23AB5C9A000930B2 /* FanOnCommend.m in Sources */,
 				D8523CC42362C89A0092F747 /* SwordBehavior.m in Sources */,
+				D8A77AE723AB54E300CBA1DF /* CommendViewController.m in Sources */,
 				D8E661F52362977E001C7D77 /* ViewController.m in Sources */,
 				D8523CC72362C8DA0092F747 /* Queen.m in Sources */,
 				D80F579A2383CA450068AA8F /* Square.m in Sources */,
+				D8AE545A23B9C8D100A105B7 /* Heater.m in Sources */,
 				D82FC2F7238517E200C51366 /* OperationController.m in Sources */,
 				D82FC2F02384DC4200C51366 /* GIFImageFactory.m in Sources */,
+				D8AE545123B9C89A00A105B7 /* FanOffCommend.m in Sources */,
 				D8E6620823629CE8001C7D77 /* Character.m in Sources */,
+				D8AE543A23B9974500A105B7 /* Light.m in Sources */,
 				D88D357C23716A3100903F3C /* Espresso.m in Sources */,
 				D82FC306238518AA00C51366 /* WindowsInterfaceController.m in Sources */,
+				D8AE545D23B9C8D900A105B7 /* TV.m in Sources */,
 				D8E6621123629F8C001C7D77 /* AxeBehavior.m in Sources */,
+				D8AE545423B9C8B700A105B7 /* HeaterOffCommend.m in Sources */,
+				D8AE544223B99F9D00A105B7 /* NoCommend.m in Sources */,
 				D82FC2E12384D9B400C51366 /* PNGImageLoader.m in Sources */,
 				D88D35742371662200903F3C /* StrategyPatternVC.m in Sources */,
 				D8E661EF2362977E001C7D77 /* AppDelegate.m in Sources */,
+				D80B7D7923AB5C90000930B2 /* DoorOnCommend.m in Sources */,
 				D82FC3152385197300C51366 /* iOSFactory.m in Sources */,
 				D82FC3032385189900C51366 /* InterfaceController.m in Sources */,
 				D8E662002362978B001C7D77 /* main.m in Sources */,
+				D8AE544E23B9C81500A105B7 /* Fan.m in Sources */,
 				D82FC2DE2384D98C00C51366 /* ImageLoader.m in Sources */,
 				D82FC3182385197C00C51366 /* AndroidFactory.m in Sources */,
+				D80B7D8223AB5CCB000930B2 /* TVOnCommend.m in Sources */,
 				D80F57942383C9FB0068AA8F /* Circle.m in Sources */,
+				D8AE543F23B99E4B00A105B7 /* RemoteControl.m in Sources */,
+				D80B7D7623AB5C83000930B2 /* LightOnCommend.m in Sources */,
+				D80B7D7F23AB5CB8000930B2 /* HeaterOnCommend.m in Sources */,
 				D88D358A2371707A00903F3C /* Soy.m in Sources */,
 				D82FC2FA2385180D00C51366 /* WindowsOperationController.m in Sources */,
 				D8E6620B23629CF9001C7D77 /* King.m in Sources */,
@@ -483,6 +618,7 @@
 				D80F579D2383CA880068AA8F /* ShapeFactory.m in Sources */,
 				D88D3578237167B400903F3C /* DecoratorPatternVC.m in Sources */,
 				D8E661F22362977E001C7D77 /* SceneDelegate.m in Sources */,
+				D8AE544523B9A30200A105B7 /* LightOffCommend.m in Sources */,
 				D82FC30C238518BB00C51366 /* AndroidInterfaceController.m in Sources */,
 				D88D357F23716B6500903F3C /* HouseBlend.m in Sources */,
 				D80F57912383C9C30068AA8F /* Shape.m in Sources */,
@@ -490,6 +626,8 @@
 				D82FC2E72384D9E600C51366 /* JPGImageLoader.m in Sources */,
 				D88D358723716FCF00903F3C /* Milk.m in Sources */,
 				D82FC2F32384DC4E00C51366 /* JPGImageFactory.m in Sources */,
+				D8AE545723B9C8C400A105B7 /* TVOffCommend.m in Sources */,
+				D8AE544823B9A46400A105B7 /* Door.m in Sources */,
 				D82FC2FD2385181800C51366 /* iOSOperationController.m in Sources */,
 				D8F280C5238E7C14000E194A /* Singleton_Macro.m in Sources */,
 				D8523CC12362C80B0092F747 /* KnifeBehavior.m in Sources */,
